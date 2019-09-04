@@ -7,8 +7,8 @@ aside{
     font-size: 15px;
 }
 aside h1{
-    justify-content: center;
-    margin-left: 23px;
+    justify-content: space-around;
+    margin-left: 43px;
 }
 aside p{
     margin: 10px;
@@ -16,7 +16,7 @@ aside p{
 body{
 display: grid;
 cursor: url("../img/StarBits.png"), default;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 grid-template-areas: 'nav nav nav nav'
                      'header header header aside'
                      'section section section section'
